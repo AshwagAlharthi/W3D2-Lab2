@@ -106,3 +106,33 @@ if (wordds) {
 } else {
     console.log("javascript word is not in the array");
 }
+
+
+// ================================================ //
+// Functions
+
+function sum(num1, num2){
+    return num1 + num2;
+}
+
+function substract(num1, num2){
+    return num1 - num2;
+}
+
+function multiply(num1, num2){
+    return num1 * num2;
+}
+
+function divide(num1, num2){
+    return num1 / num2;
+}
+
+function mod(num1, num2){
+    return num1 % num2;
+}
+
+console.log(sum(5,3));
+console.log(substract(10,4));
+console.log(multiply(4,3));
+console.log(divide(6,3));
+console.log(mod(6,3));
